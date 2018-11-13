@@ -33,7 +33,7 @@ onSearchChange = (event) => {
 		} else { 
 		return (
 		<div className='tc'>
-			<h1 className='f1'>RoboFriends</h1>
+			<h1 className='f1'>RobotsAreFun</h1>
 			<SearchBox searchChange={this.onSearchChange}/>
 			<Scroll>
 			<Cardlist robots={filteredRobots}/>
